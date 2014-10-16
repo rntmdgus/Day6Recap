@@ -1583,7 +1583,7 @@ function draw(){
          }
       }
    }
-   
+
    else if (mouseX < 1250){
       if(mouseX > 1050){
          if(mouseY < 450){
@@ -1656,14 +1656,17 @@ function draw(){
 
    strokeWeight();
    stroke();
-   fill(252, 240, 47, 50);
-   rect(mouseX-20, mouseY-10, 40, 40);
-   fill(252, 192, 47, 50);
-   rect(mouseX-15, mouseY-5, 30, 30);
-   fill(225, 106, 52, 50);
-   rect(mouseX-10, mouseY, 20, 20);
-   fill(121);
-   rect(mouseX-10, mouseY+30, 20, 130);
-   fill(121);
-   rect(mouseX-5, mouseY+160, 10, 70);
+   fill(130);
+   rect(mouseX-10, mouseY, 20, 130);
+   fill(100);
+   rect(mouseX-5, mouseY+130, 10, 60);
+
+
+   fill(252*Math.random(), 240*Math.random(), 47*Math.random(), 40);
+   rect(mouseX-20, mouseY-20, 40, 40);
+   fill(252*Math.random(), 192*Math.random(), 47*Math.random(), 70);
+   rect(mouseX-15, mouseY-15, 30, 30);
+   fill(225*Math.random(), 106*Math.random(), 52*Math.random(), 100);
+   rect(mouseX-10, mouseY-10, 20, 20);
+
 }
