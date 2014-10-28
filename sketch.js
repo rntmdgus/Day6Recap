@@ -21,7 +21,7 @@ function setup(){
 
 function draw(){
    background(3,3,3);
-   noStroke(19,29,77);
+   noStroke();
    noCursor();
 
 
@@ -1665,7 +1665,7 @@ function draw(){
 //ë§ë
 
    strokeWeight();
-   stroke();
+   noStroke();
    fill(130);
    rect(mouseX-10, mouseY, 20, 130);
    fill(100);
@@ -1684,7 +1684,7 @@ function draw(){
 }
 
 function drawDuck(x,y){
-   noStroke();
+noStroke();
 
 //입 
 fill(209,96,40);
@@ -1799,7 +1799,7 @@ rect(x+130,y+160,30,10);
 fill(171,117,8);
 rect(x-10,y+110,10,10);
 rect(x+50,y+110,10,10);
-rect(x+70,y+160,10,10);
+rect(x-70,y+160,10,10);
 rect(x-60,y+170,180,20);
 rect(x+50,y+160,80,10);
 rect(x+110,y+150,10,10);
