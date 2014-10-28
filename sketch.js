@@ -6,7 +6,7 @@ var trailY = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var img;
 
 function setup(){
-   createCanvas(1920,1200);
+   createCanvas(1920,830);
 
    r=0;
    i=0;
