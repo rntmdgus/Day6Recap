@@ -29,7 +29,7 @@ function draw(){
    noStroke();
    noCursor();
 
-   image(img, 0, 830, 1920, 370);
+   image(img, 0, 0, 1920, 370);
 
    ellipse(10);
 
