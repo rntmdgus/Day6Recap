@@ -20,7 +20,7 @@ function setup(){
 
    count=1920;
 
-   img = loadImage("111.png");
+   img = loadImage("back.jpg");
 }
 
 
