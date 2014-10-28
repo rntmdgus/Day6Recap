@@ -1,12 +1,15 @@
 var count;
 var r;
+var i;
 var trailX = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var trailY = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+var img;
 
 function setup(){
-   createCanvas(1920,830);
+   createCanvas(1920,1200);
 
    r=0;
+   i=0;
    size=[120,70,100];
    size1=[180,100,150];
    size2=[150,80,120];
@@ -16,7 +19,11 @@ function setup(){
    size6=[80,60,90];
 
    count=1920;
+
+   img = loadImage("111.jpg");
 }
+
+
 
 
 function draw(){
@@ -24,6 +31,9 @@ function draw(){
    noStroke();
    noCursor();
 
+   image(img, 0, 830, 1920, 370);
+
+   ellipse(10)
 
 
    //ëł
@@ -1518,11 +1528,12 @@ function draw(){
    rect(1900,600,200,250);
 
 //러버덕
-     drawDuck(count,550);
+   drawDuck(count,550);
    count=count-1;
    if(count>1920){
    count=0;
 } 
+
 
 //í­ěŁ˝ strokeWeight ëęť, stroke ěě, ellipse ěěš
 
