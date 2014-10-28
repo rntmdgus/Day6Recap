@@ -24,16 +24,13 @@ function setup(){
 }
 
 
-
-
 function draw(){
    background(3,3,3);
    noStroke();
    noCursor();
 
-   image(img, 0, 830, 1920, 370);
 
-   ellipse(10)
+   ellipse(10);
 
 
    //ëł
@@ -1691,6 +1688,7 @@ function draw(){
    rect(mouseX-10, mouseY-10, 20, 20);
 
 
+   image(img, 0, 830, 1920, 370);
 
 }
 
