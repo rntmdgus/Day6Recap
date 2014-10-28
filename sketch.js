@@ -20,7 +20,6 @@ function setup(){
 
    count=1920;
 
-   img = loadImage("back.jpg");
 }
 
 
@@ -29,7 +28,6 @@ function draw(){
    noStroke();
    noCursor();
 
-   image(img, 0, 0, 1920, 370);
 
    ellipse(10);
 
