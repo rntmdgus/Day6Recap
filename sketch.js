@@ -20,7 +20,7 @@ function setup(){
 
    count=1920;
 
-   img = loadImage("111.jpg");
+   img = loadImage("111.png");
 }
 
 
@@ -29,6 +29,7 @@ function draw(){
    noStroke();
    noCursor();
 
+   image(img, 0, 830, 1920, 370);
 
    ellipse(10);
 
@@ -1688,7 +1689,6 @@ function draw(){
    rect(mouseX-10, mouseY-10, 20, 20);
 
 
-   image(img, 0, 830, 1920, 370);
 
 }
 
